@@ -25,3 +25,9 @@ git clone https://github.com/yangfei940615/Switching_Power_Supply.git
 cd Switching_Power_Supply
 make
 ./build/example_buck
+Switching_Power_Supply/
+├── src/           # 核心算法源码
+├── include/       # 头文件
+├── examples/      # 使用示例
+├── tests/         # 单元测试
+└── README.md      # 项目说明
