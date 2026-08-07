@@ -11,5 +11,6 @@ void  Sensing_Init(void);
 void  Sensing_FastTask(void);   /* 1ms: 原始采样滤波, 交流瞬时值入环 */
 void  Sensing_CtrlTask(void);   /* 10ms: RMS/功率/负载率计算 */
 float Sensing_NTC_ToTemp(float v_ntc);
+float Sensing_GetInstOutVolt(void);  /* 输出电压瞬时值(去偏置), 供逆变电压环 */
 
 #endif /* SENSING_H */
